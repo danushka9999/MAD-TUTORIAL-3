@@ -14,4 +14,5 @@
     <string name="bt_mul">*</string>
     <string name="bt_divi">/</string>
     <string name="tv_value1" />
+    <string name="et_value6" />
 </resources>
