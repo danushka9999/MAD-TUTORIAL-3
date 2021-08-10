@@ -7,64 +7,64 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_number1"
+        android:id="@+id/tv_number1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="NUMBER 1"
-        app:layout_constraintEnd_toStartOf="@+id/textfield1"
+        android:text="@string/tv_number1"
+        app:layout_constraintEnd_toStartOf="@+id/et_num1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="30dp" />
 
     <EditText
-        android:id="@+id/textfield1"
+        android:id="@+id/et_num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBaseline_toBaselineOf="@+id/text_number1"
+        android:text="@string/et_num1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_number1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/text_number1" />
+        app:layout_constraintStart_toEndOf="@+id/tv_number1" />
 
     <TextView
-        android:id="@+id/text_number2"
+        android:id="@+id/tv_num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/textfield2"
+        android:text="@string/tv_number2"
+        app:layout_constraintEnd_toStartOf="@+id/et_num2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_number1" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_number1" />
 
     <EditText
-        android:id="@+id/textfield2"
+        android:id="@+id/et_num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBaseline_toBaselineOf="@+id/text_number2"
+        android:text="@string/et_num2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_num2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/text_number2" />
+        app:layout_constraintStart_toEndOf="@+id/tv_num2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bt_ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
-        android:text="Button"
+        android:text="@string/bt_ok"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_number2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_num2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
