@@ -5,4 +5,13 @@
     <string name="et_num1" />
     <string name="et_num2" />
     <string name="bt_ok">OK</string>
+    <string name="tv_num1">Number 1</string>
+    <string name="tv_num2">Number 2</string>
+    <string name="te_num4" />
+    <string name="et_num5" />
+    <string name="bt_plus">+</string>
+    <string name="bt_minus">-</string>
+    <string name="bt_mul">*</string>
+    <string name="bt_divi">/</string>
+    <string name="tv_value1" />
 </resources>
